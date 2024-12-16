@@ -1,7 +1,8 @@
 AUDIO_ENABLE = no           # Audio output
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
-BOOTLOADER = atmel-dfu
+BOOTLOADER = atmel-dfu      # Set the bootloader
+CAPS_WORD_ENABLE = yes      # Both shifts enable caps word
 COMMAND_ENABLE = no         # Commands for debug and configuration
 CONSOLE_ENABLE = no         # Console for debug
 EXTRAKEY_ENABLE = no        # Audio control and System control
